@@ -16,6 +16,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+//test
+app.MapGet("/api/ping", () => "Hello World! This is Process Tracker Service.");
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
