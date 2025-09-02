@@ -6,8 +6,8 @@ This repository contains the source code for a personal web application that com
 For detailed information about the project vision, features, architecture, and planning, see the documentation below.
 
 ## Documentation
-- [Overview](docs/overview.md)
-- [Product Spec](docs/product-spec.md)
-- [Architecture](docs/architecture.md)
-- [Data Model](docs/data-model.md)
-- [Roadmap & Sprints](docs/roadmap-sprints.md)
+- [Overview](Project-specs/overview.md)
+- [Product Spec](Project-specs/product-spec.md)
+- [Architecture](Project-specs/architecture.md)
+- [Data Model](Project-specs/data-model.md)
+- [Roadmap & Sprints](Project-specs/roadmap-sprints.md)
