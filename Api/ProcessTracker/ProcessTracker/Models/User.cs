@@ -8,7 +8,10 @@
         public string Email { get; set; }
         public string Role { get; set; }
 
-        //Navigate to DailyTasks, User Can have multiple DailyTasks
-        public ICollection<DailyTask> DailyTasks { get; set; }
+        //Navigate to DailyTasks, Habits, User Can have multiple DailyTasks, Habits
+        public ICollection<DailyTask> DailyTasks { get; set; } = [];
+        public ICollection<Habits> Habits { get; set; } = [];   
+        public ICollection<WorkoutSession> WorkoutSessions { get; set; } = [];
+
     }
 }
