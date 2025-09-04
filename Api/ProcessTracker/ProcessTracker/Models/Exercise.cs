@@ -7,6 +7,6 @@
         public string DefaultUnit { get; set; } = "kg";
         public bool IsBodyWeight { get; set; } = false;
 
-        public IColeect<WorkoutSets> WorkoutSets { get; set; } = [];
+        public ICollection<WorkoutSets> WorkoutSets { get; set; } = [];
     }
 }
