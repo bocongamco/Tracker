@@ -11,3 +11,7 @@ For detailed information about the project vision, features, architecture, and p
 - [Architecture](Project-specs/architecture.md)
 - [Data Model](Project-specs/data-model.md)
 - [Roadmap & Sprints](Project-specs/roadmap-sprints.md)
+
+## UML Diagram
+
+![UML Diagram](./UMLDiagram.png)
