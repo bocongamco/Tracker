@@ -9,5 +9,8 @@
         public int? DurationInMinutes { get; set; }
         public string? Note { get; set; } = "";
 
+        public ICollection<WorkoutSets> WorkoutSets { get; set; } = [];
+
+
     }
 }
