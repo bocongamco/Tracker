@@ -14,9 +14,11 @@ namespace ProcessTracker.Data.Configuration
                 .HasMaxLength(100);
             b.Property(b =>b.PasswordHash)
                 .IsRequired()
+                .HasMaxLength(500);
+            b.Property(b => b.Email)
+                .IsRequired()
                 .HasMaxLength(255);
-            b.HasIndex(b => b.Email)
-                .IsUnique();
+
 
             b.HasMany(u => u.DailyTasks)
                 .WithOne(t => t.User)
