@@ -8,14 +8,14 @@ namespace ProcessTracker.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<User> b)
         {
-            b.HasKey(b => b.Id);
-            b.Property(b => b.UserName)
+            b.HasKey(x => x.Id);
+            b.Property(x => x.UserName)
                 .IsRequired()
                 .HasMaxLength(100);
-            b.Property(b =>b.PasswordHash)
+            b.Property(x => x.PasswordHash)
                 .IsRequired()
                 .HasMaxLength(500);
-            b.Property(b => b.Email)
+            b.Property(x => x.Email)
                 .IsRequired()
                 .HasMaxLength(255);
 
